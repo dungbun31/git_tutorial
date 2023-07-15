@@ -37,7 +37,14 @@
   - git init là để tạo ra repo (đâu là điều luôn phải làm trước khi làm 1 cái gfi )
   - khi sử dụng câu lệnh thì sẽ báo hiệu cho git là đây là 1 địa chỉ dành cho git và có thể clone hoặc pull code từ git
   -
--
+- lệnh đầu tiên khi tạo git ở 1 ổ cứng
+    echo "# git_tutorial" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/dungbun31/git_tutorial.git
+    git push -u origin main
 
 # Git structures:
 
@@ -63,3 +70,6 @@
 3. Nên chia dự án thành nhiều commit nhỏ để dễ quản lý.
 4. Không nên đặt tên thư mục, tên file có chứa khoảng trắng.
 5. Khi bắt đầu một chức năng mới, nên thành nhánh khác để phát triển.
+
+LINK THAM KHẢO VỀ CÁC LỆNH THÊM:
+https://xuanthulab.net/git-va-github/
